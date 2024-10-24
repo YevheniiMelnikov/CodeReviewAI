@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "CodeReviewAI"
+version = "0.1.0"
+description = ""
+authors = ["YevheniiMelnikov <evgeniy@workmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+setuptools = "^74.1.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+ruff = "^0.6.3"
+mypy = "^1.11.2"
+mypy-extensions = "^1.0.0"
